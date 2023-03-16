@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - newton
+ * main - Robinson
  * Return: 0
  */
+
 int main(void)
 {
 	pintf("with proper grammar, but the outcome is a piece of art,\n");

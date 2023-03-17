@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char c = 'o';
+	char c = '0';
 
 	while (c <= '9')
 	{
@@ -18,5 +18,5 @@ int main(void)
 	}
 
 	putchar('\n');
-		return (0);
+	return (0);
 }

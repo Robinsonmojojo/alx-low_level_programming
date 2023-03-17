@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - Robinson
+ *Description: get a random number
  * Return 0
  */
 int main(void)

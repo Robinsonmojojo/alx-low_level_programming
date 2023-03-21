@@ -2,7 +2,8 @@
 
 /**
  * main - check the code
- * Descreption: checks for lowercase character
+ * _islower -  checks for lowercase character
+ * @c:  checks for lowercase character
  * Return: 0
  */
 

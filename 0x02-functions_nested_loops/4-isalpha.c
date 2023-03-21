@@ -2,7 +2,7 @@
 
 /**
  * main - money
- * _isalpha -  checks for alphabetic character
+ * _isalpha:  checks for alphabetic character
  * @c:  checks for alphabetic character
  * Return: 0
  */

@@ -3,6 +3,7 @@
 /**
  * main - money
  * @n: prints the sign of a number
+ * print_sign -  function that prints the sign of a numbe..
  * Return: 0
  */
 
@@ -18,7 +19,7 @@ int print_sign(int n)
 		_putchar(45);
 		return (-1);
 	}
-	else
+	else `
 	{
 		_putchar(48);
 		return(0);

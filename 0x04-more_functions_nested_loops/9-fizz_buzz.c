@@ -22,4 +22,5 @@ int main(void)
 		putchar(s == e ? '\n' : ' ');
 		s++;
 	}
+	return (0);
 }

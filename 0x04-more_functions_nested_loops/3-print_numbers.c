@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_numbers - prints the numbers
@@ -11,8 +12,8 @@ void print_numbers(void)
 
 	while (i <= r)
 	{
-		_putchar(i + '0');
+		putchar(i + '0');
 		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }

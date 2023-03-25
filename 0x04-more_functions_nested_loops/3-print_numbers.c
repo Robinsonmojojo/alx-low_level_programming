@@ -2,16 +2,17 @@
 
 /**
  * print_numbers - prints the numbers
- * Return: void
+ * Return: 0
  */
 
 void print_numbers(void)
 {
-	int i;
+	int i = 0, r = 9;
 
-	if (i = '0', i <= '9', i++)
+	while (i <= r)
 	{
-		_putchar(i);
+		_putchar(i + '0');
+		i++;
 	}
 	_putchar('\n');
 }

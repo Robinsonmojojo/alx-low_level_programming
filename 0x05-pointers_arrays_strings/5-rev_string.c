@@ -1,5 +1,4 @@
 #include "main.h"
-#include "kasiye.h"
 
 /**
  * rev_string - reverses a string

@@ -3,7 +3,7 @@
 
 /**
  * print_rev - followed by a new line
- * @str: followed by a new line
+ * @s: followed by a new line
  * Return: 0
  */
 

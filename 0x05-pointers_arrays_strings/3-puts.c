@@ -1,5 +1,5 @@
 #include "main.h"
-#inclue <stdio.h>
+#include <stdio.h>
 
 /**
  * _puts - followed by a new line

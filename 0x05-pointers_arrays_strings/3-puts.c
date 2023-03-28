@@ -1,4 +1,5 @@
 #include "main.h"
+#inclue <stdio.h>
 
 /**
  * _puts - followed by a new line
@@ -10,7 +11,7 @@ void _puts(char *str)
 {
 	while (*str != '\0')
 	{
-		_putchar(*str++);
+		putchar(*str++);
 	}
-	_putchar('\n');
+	putchar('\n');
 }

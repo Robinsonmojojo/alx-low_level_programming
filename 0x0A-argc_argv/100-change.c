@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 			r++;
 			n -= c[j];
 		}
-		printf("%d\n", r);
-		return (0);
 	}
+	printf("%d\n", r);
+	return (0);
 }

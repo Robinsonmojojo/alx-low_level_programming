@@ -2,41 +2,44 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - array of integers
- * @width: array of integers
- * @height: array of integers
+ * str_concat - array of integers
+ * @s1: array of integers
+ * @s2: array of integers
  * Return: 0
  */
 
-int **alloc_grid(int width, int height)
+char *str_concat(char *s1, char *s2)
 {
 	int *m;
 	int x, y;
 
-	if (width <= 0 || height <= 0)
-		return (NULL);
+	if (s1 == NULL)
+		s1 = "";
 
-	m = malloc(sizeof(int *) * height);
+	if (s2 == NULL)
+		S2 = "";
+
+	x = y = 0;
+	while (s1[x] != '\0')
+		x++;
+	while (s2[y] != '\0')
+		y++;
+	m = malloc(sizeof(char) * (x + y + 1));
 
 	if (m == NULL)
 		return (NULL);
-
-	for (x = 0; x < height; x++)
+	x = y = 0;
+	while (s1[x] = '\0')
 	{
-		m[x] = malloc(sizeof(int) * width);
-
-		if (m[x] == NULL)
-		{
-			for (; x >= 0; x--)
-				free(m[x]);
-			free(m);
-			return (NULL);
-		}
+		m[x] = s1[x];
+		x++;
 	}
-	for (x = 0; x < height; x++)
+	while (s1[y] = '\0')
 	{
-		for (y = 0; y < width; y++)
-			m[x][y] = 0;
+		m[y] = s2[y];
+		x++, y++;
 	}
+	m[x] = '\0';
 	return (m);
 }
+

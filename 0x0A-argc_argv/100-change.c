@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int n, j, r;
+	int n, j, r, e;
 	int c[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
@@ -30,9 +30,11 @@ int main(int argc, char *argv[])
 	{
 		while (n >= c[j])
 		{
-			r++;
-			n -= c[j];
+			e = n / c[j];
+			r += e;
+			n -= c[j] * e;
 		}
+		j++;
 	}
 	printf("%d\n", r);
 	return (0);
